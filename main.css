@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    margin: 0px 0px;
+    background-color: rgb(240, 240, 240);
+}
+.heading{
+    width:95%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(97, 97, 97);
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+p{
+    color: rgb(117, 117, 117);
+}
+.feature{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Supervisor{
+    width: 30%;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    border-top: 5px green solid;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3) ;
+    position: relative;
+    top:150px;
+}
+.Supervisor img{
+    bottom:15px;
+    right:15px;
+    position: absolute;
+}
+.Team_Build{
+    width: 30%;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3) ;
+    border-top: 5px orange solid;
+    position: relative;
+}
+.Team_Build img{
+    bottom:15px;
+    right:15px;
+    position: absolute;
+}
+.Karma{
+    width: 30%;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3) ;
+    border-top: 5px rgb(0, 102, 255) solid;
+    position: relative;
+    order: 1;
+}
+.Karma img{
+    bottom:15px;
+    right:15px;
+    position: absolute;
+}
+.Calculator{
+    width: 30%;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3) ;
+    border-top: 5px yellow solid;
+    position: relative;
+    top:150px;
+}
+.Calculator img{
+    bottom:15px;
+    right:15px;
+    position: absolute;
+}
+.box_heading{
+    font-size: 2rem;
+    color: rgb(71, 71, 71)
+}
+.box_subheading{
+    font-size: 0.85rem;
+    color: grey;
+}
+@media (max-width:1200px){
+    .Supervisor{
+        width:40%;
+        top:0;
+    }
+    .Team_Build{
+        width:40%;
+        top:0;
+    }
+    .Karma{
+        width:40%;
+        top:0;
+    }
+    .Calculator{
+        width:40%;
+        top:0;
+    }
+}
+@media (max-width:820px){
+    .Supervisor{
+        width:80%;
+        top:0;
+    }
+    .Team_Build{
+        width:80%;
+        top:0;
+    }
+    .Karma{
+        width:80%;
+        top:0;
+    }
+    .Calculator{
+        width:80%;
+        top:0;
+    }
+}
+@media (max-width:450px){
+    .heading{
+        height: 50%;
+    }
+}
